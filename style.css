@@ -1,0 +1,32 @@
+.logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.navegacao {
+    margin: 10px;
+    text-align: center;
+}
+  
+.navegacao span {
+    margin-right: 35px;
+}
+
+.perfil {
+    position: fixed;
+    top: 0;
+    right: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+.perfil img {
+    margin-left: 10px;
+  }
+
+.perfil img:nth-child(2) {
+    width: 30px;
+    height: auto;
+  }
