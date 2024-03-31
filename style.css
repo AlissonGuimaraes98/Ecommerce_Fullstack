@@ -1,12 +1,15 @@
 .logo {
-    position: fixed;
-    top: 10px;
-    left: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
 }
 
 .navegacao {
-    margin: 10px;
+    margin: -15px;
     text-align: center;
+}
+
+hr{
+    margin: 25px;
 }
   
 .navegacao span {
@@ -20,13 +23,110 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  }
+}
   
 .perfil img {
     margin-left: 10px;
-  }
+}
 
 .perfil img:nth-child(2) {
     width: 30px;
     height: auto;
-  }
+}
+
+.insercaoImagens {
+    display: flex;
+    align-items: center;
+}
+
+.insercaoImagens img{
+    margin-top: 60px;
+    margin-left: 120px;
+    width: 350px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.insercaoImagens .info {
+    margin-left: 100px;
+}
+
+h5 {
+    color: Orange;
+}
+
+.info {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.info p {
+    font-size: 13px;
+    margin: 5px 0;
+    padding: 3px;
+}
+
+.quantidade img{
+    margin: auto;
+    width: 15px;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    margin-bottom: -30px;
+}
+  
+.preco h3, .preco h6 {
+    margin-right: 10px; /* Espaço entre h3 e h6 */
+}
+
+.preco h6 {
+    background-color: rgba(255, 165, 0, 0.15);
+    color: orange;
+    padding: 5px 10px; /* Ajuste o padding conforme necessário */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.quantidade {
+    display: flex;
+    flex-direction: column;
+}
+  
+.quantidade span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.botoes{
+    display: flex;
+}
+
+.acoes {
+    background-color: rgb(244, 242, 242);
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    margin-right: 10px;
+    width: 100px;
+}
+
+.addCarrinho{
+    color: white;
+    display: flex;
+    background-color: orange;
+    border-radius: 5%;
+    width: 150px;
+}
+
+.addCarrinho img {
+    filter: brightness(0) invert(1);
+}
+
+  
+
+  
