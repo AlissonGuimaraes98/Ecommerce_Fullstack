@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-
+//função definida para seleção de imagens
 function alterarImagem(novaFonte) {
     document.getElementById('imagemPrincipal').src = novaFonte;
   }
