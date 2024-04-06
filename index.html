@@ -51,13 +51,14 @@
 
   <hr>
 
-  <section class="insercaoImagens">
+<section class="insercaoImagens">
 
-    <div class="imagemInfoContainer">
+  <div class="imagemInfoContainer">
 
-      <img src="images/image-product-1.jpg" alt="imagem1">
+    <img id="imagemPrincipal" src="images/image-product-1.jpg" alt="imagem1">
 
       <div class="info">
+
         <h5>SNEAKER COMPANY</h5>
 
         <h1>Fall Limited Edition Sneakers</h1>
@@ -85,17 +86,21 @@
               <img src="images/icon-cart.svg" alt="">
               <p>Add to cart</p>
             </div>
-        </div>
-      </div>
-    </div>  
-  </div> 
 
-  <div class="imagensMenores">
-    <img src="images/image-product-1-thumbnail.jpg" alt="primeira">
-    <img src="images/image-product-2-thumbnail.jpg" alt="segunda">
-    <img src="images/image-product-3-thumbnail.jpg" alt="terceira">
-    <img src="images/image-product-4-thumbnail.jpg" alt="quarta">
-  </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div> 
+  
+    <div class="imagensMenores">
+      <img src="images/image-product-1-thumbnail.jpg" alt="primeira" onclick="alterarImagem('images/image-product-1.jpg')">
+      <img src="images/image-product-2-thumbnail.jpg" alt="segunda" onclick="alterarImagem('images/image-product-2.jpg')">
+      <img src="images/image-product-3-thumbnail.jpg" alt="terceira" onclick="alterarImagem('images/image-product-3.jpg')">
+      <img src="images/image-product-4-thumbnail.jpg" alt="quarta" onclick="alterarImagem('images/image-product-4.jpg')">
+    </div>
 </section>
 
 <br>

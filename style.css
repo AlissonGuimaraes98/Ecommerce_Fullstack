@@ -55,11 +55,16 @@ hr{
     margin-left: 100px;
 }
 
+  .imagemInfoContainer img {
+    height: auto;
+  }
+
 .imagensMenores {
     display: flex;
     justify-content: flex-start;
     margin-top: 40px;
     margin-left: 100px;
+    cursor: pointer;
 }
   
 .imagensMenores img {
@@ -151,6 +156,11 @@ h5 {
 
 .addCarrinho img {
     filter: brightness(0) invert(1);
+}
+
+.addCarrinho p {
+    margin-right: 15px;
+    align-items: center;
 }
 
 

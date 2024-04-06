@@ -27,3 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+
+function alterarImagem(novaFonte) {
+    document.getElementById('imagemPrincipal').src = novaFonte;
+  }
